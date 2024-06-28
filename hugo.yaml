@@ -2,3 +2,54 @@ baseURL: nikhilchigali.github.io
 languageCode: en-us
 title: Nikhil Chigali
 theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+
+params:
+  assets:
+    favicon: "imgs/professional_headshot_square.jpg"
+    favicon16x16: "imgs/professional_headshot_square.jpg"
+    favicon32x32: "imgs/professional_headshot_square.jpg"
+    apple_touch_icon: "imgs/professional_headshot_square.jpg"
+    safari_pinned_tab: "imgs/professional_headshot_square.jpg"
+
+  profileMode:
+    enabled: true
+    title: Hi there! 👋 I am Nikhil Chigali
+    subtitle: Welcome to my page! Here, I document my AI learnings, projects, and experiences. Feel free to browse my posts and reach out to me at nikhil.chigali@gmail.com if you have any questions or just want to have a fun chat.
+    imageUrl: "imgs/professional_headshot_square.jpg"
+    imageTitle: ""
+    imageWidth: 160
+    imageHeight: 160
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+
+  socialIcons:
+    - name: linkedin
+      url: https://www.linkedin.com/in/nikhil-chigali/
+    - name: github
+      url: https://github.com/nikhil-chigali
+    - name: twitter
+      url: https://twitter.com/ChigaliNikhil
